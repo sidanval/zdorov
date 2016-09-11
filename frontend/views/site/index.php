@@ -20,7 +20,9 @@ $this->title = Yii::$app->name;
                 </p>
 
                 <p class="lead">
-                    <?= $form->field($model, 'phone')->textInput() ?>
+                    <?= $form->field($model, 'phone')->widget(\yii\widgets\MaskedInput::className(),([
+                        'mask' => '+7 (999) 999-99-99'
+                    ])) ?>
                 </p>
 
                 <p class="lead">
