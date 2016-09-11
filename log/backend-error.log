@@ -1,0 +1,82 @@
+2016/09/09 23:42:17 [error] 1630#0: *262 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\base\InvalidConfigException' with message 'The "basePath" property must be set.' in /www/zdorov/vendor/yiisoft/yii2/base/Theme.php:136
+Stack trace:
+#0 /www/zdorov/vendor/yiisoft/yii2/base/View.php(221): yii\base\Theme->applyTo('/www/zdorov/ven...')
+#1 /www/zdorov/vendor/yiisoft/yii2/web/ErrorHandler.php(241): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#2 /www/zdorov/vendor/yiisoft/yii2/web/ErrorHandler.php(112): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#3 /www/zdorov/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\base\InvalidConfigException))
+#4 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#5 {main}
+Previous exception:
+exception 'yii\base\InvalidConfigException' with message 'The "basePath" property must be set.' in /www/zdorov/vendor/yiisoft/yii2/base/Theme.php:13" while reading upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/index.php?r=gii"
+2016/09/09 23:42:18 [error] 1630#0: *262 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\base\InvalidConfigException' with message 'The "basePath" property must be set.' in /www/zdorov/vendor/yiisoft/yii2/base/Theme.php:136
+Stack trace:
+#0 /www/zdorov/vendor/yiisoft/yii2/base/View.php(221): yii\base\Theme->applyTo('/www/zdorov/ven...')
+#1 /www/zdorov/vendor/yiisoft/yii2/web/ErrorHandler.php(241): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#2 /www/zdorov/vendor/yiisoft/yii2/web/ErrorHandler.php(112): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#3 /www/zdorov/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\base\InvalidConfigException))
+#4 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#5 {main}
+Previous exception:
+exception 'yii\base\InvalidConfigException' with message 'The "basePath" property must be set.' in /www/zdorov/vendor/yiisoft/yii2/base/Theme.php:13" while reading upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/index.php?r=gii"
+2016/09/09 23:42:19 [error] 1630#0: *262 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\base\InvalidConfigException' with message 'The "basePath" property must be set.' in /www/zdorov/vendor/yiisoft/yii2/base/Theme.php:136
+Stack trace:
+#0 /www/zdorov/vendor/yiisoft/yii2/base/View.php(221): yii\base\Theme->applyTo('/www/zdorov/ven...')
+#1 /www/zdorov/vendor/yiisoft/yii2/web/ErrorHandler.php(241): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#2 /www/zdorov/vendor/yiisoft/yii2/web/ErrorHandler.php(112): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#3 /www/zdorov/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\base\InvalidConfigException))
+#4 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#5 {main}
+Previous exception:
+exception 'yii\base\InvalidConfigException' with message 'The "basePath" property must be set.' in /www/zdorov/vendor/yiisoft/yii2/base/Theme.php:13" while reading upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/index.php?r=gii"
+2016/09/09 23:42:19 [error] 1630#0: *262 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\base\InvalidConfigException' with message 'The "basePath" property must be set.' in /www/zdorov/vendor/yiisoft/yii2/base/Theme.php:136
+Stack trace:
+#0 /www/zdorov/vendor/yiisoft/yii2/base/View.php(221): yii\base\Theme->applyTo('/www/zdorov/ven...')
+#1 /www/zdorov/vendor/yiisoft/yii2/web/ErrorHandler.php(241): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#2 /www/zdorov/vendor/yiisoft/yii2/web/ErrorHandler.php(112): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#3 /www/zdorov/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\base\InvalidConfigException))
+#4 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#5 {main}
+Previous exception:
+exception 'yii\base\InvalidConfigException' with message 'The "basePath" property must be set.' in /www/zdorov/vendor/yiisoft/yii2/base/Theme.php:13" while reading upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/index.php?r=gii"
+2016/09/09 23:42:19 [error] 1630#0: *262 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\base\InvalidConfigException' with message 'The "basePath" property must be set.' in /www/zdorov/vendor/yiisoft/yii2/base/Theme.php:136
+Stack trace:
+#0 /www/zdorov/vendor/yiisoft/yii2/base/View.php(221): yii\base\Theme->applyTo('/www/zdorov/ven...')
+#1 /www/zdorov/vendor/yiisoft/yii2/web/ErrorHandler.php(241): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#2 /www/zdorov/vendor/yiisoft/yii2/web/ErrorHandler.php(112): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#3 /www/zdorov/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\base\InvalidConfigException))
+#4 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#5 {main}
+Previous exception:
+exception 'yii\base\InvalidConfigException' with message 'The "basePath" property must be set.' in /www/zdorov/vendor/yiisoft/yii2/base/Theme.php:13" while reading upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/index.php?r=gii"
+2016/09/09 23:42:19 [error] 1630#0: *262 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\base\InvalidConfigException' with message 'The "basePath" property must be set.' in /www/zdorov/vendor/yiisoft/yii2/base/Theme.php:136
+Stack trace:
+#0 /www/zdorov/vendor/yiisoft/yii2/base/View.php(221): yii\base\Theme->applyTo('/www/zdorov/ven...')
+#1 /www/zdorov/vendor/yiisoft/yii2/web/ErrorHandler.php(241): yii\base\View->renderFile('@yii/views/erro...', Array, Object(yii\web\ErrorHandler))
+#2 /www/zdorov/vendor/yiisoft/yii2/web/ErrorHandler.php(112): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#3 /www/zdorov/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\base\InvalidConfigException))
+#4 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\InvalidConfigException))
+#5 {main}
+Previous exception:
+exception 'yii\base\InvalidConfigException' with message 'The "basePath" property must be set.' in /www/zdorov/vendor/yiisoft/yii2/base/Theme.php:13" while reading upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/index.php?r=gii"
+2016/09/10 10:23:07 [error] 516#0: *256 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Undefined class constant 'self::ROLE_ADMINL' in /www/zdorov/backend/controllers/UserController.php on line 38" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /index.php?r=user%2Findex HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/index.php"
+2016/09/10 10:38:54 [error] 516#0: *393 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /www/zdorov/backend/views/user/index.php on line 36" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /index.php?r=user%2Findex HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/index.php"
+2016/09/10 11:05:01 [error] 516#0: *518 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /www/zdorov/backend/views/user/index.php on line 47" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /index.php?r=user%2Findex HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/index.php"
+2016/09/10 11:05:02 [error] 516#0: *518 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /www/zdorov/backend/views/user/index.php on line 47" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /index.php?r=user%2Findex HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/index.php"
+2016/09/10 11:05:02 [error] 516#0: *518 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /www/zdorov/backend/views/user/index.php on line 47" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /index.php?r=user%2Findex HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/index.php"
+2016/09/10 11:20:33 [error] 516#0: *609 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ''created_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /www/zdorov/backend/views/user/view.php on line 34" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /index.php?r=user%2Fview&id=1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/index.php?r=user%2Fupdate&id=1"
+2016/09/10 11:20:33 [error] 516#0: *609 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ''created_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /www/zdorov/backend/views/user/view.php on line 34" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /index.php?r=user%2Fview&id=1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/index.php?r=user%2Fupdate&id=1"
+2016/09/10 11:20:34 [error] 516#0: *609 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ''created_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /www/zdorov/backend/views/user/view.php on line 34" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /index.php?r=user%2Fview&id=1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/index.php?r=user%2Fupdate&id=1"
+2016/09/11 11:22:09 [error] 505#0: *1197 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /www/zdorov/backend/models/HistorySearch.php on line 69" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /history/index?HistorySearch%5Buser_id%5D=%D0%90%D0%B4%D0%BC%D0%B8%D0%BD&HistorySearch%5Bpurchase_id%5D=&HistorySearch%5Bupdated_at%5D= HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/history/index?HistorySearch%5Buser_id%5D=%D0%90%D0%B4%D0%BC%D0%B8%D0%BD&HistorySearch%5Bpurchase_id%5D=&HistorySearch%5Bupdated_at%5D="
+2016/09/11 11:22:10 [error] 505#0: *1197 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /www/zdorov/backend/models/HistorySearch.php on line 69" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /history/index?HistorySearch%5Buser_id%5D=%D0%90%D0%B4%D0%BC%D0%B8%D0%BD&HistorySearch%5Bpurchase_id%5D=&HistorySearch%5Bupdated_at%5D= HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/history/index?HistorySearch%5Buser_id%5D=%D0%90%D0%B4%D0%BC%D0%B8%D0%BD&HistorySearch%5Bpurchase_id%5D=&HistorySearch%5Bupdated_at%5D="
+2016/09/11 11:22:10 [error] 505#0: *1197 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /www/zdorov/backend/models/HistorySearch.php on line 69" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /history/index?HistorySearch%5Buser_id%5D=%D0%90%D0%B4%D0%BC%D0%B8%D0%BD&HistorySearch%5Bpurchase_id%5D=&HistorySearch%5Bupdated_at%5D= HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/history/index?HistorySearch%5Buser_id%5D=%D0%90%D0%B4%D0%BC%D0%B8%D0%BD&HistorySearch%5Bpurchase_id%5D=&HistorySearch%5Bupdated_at%5D="
+2016/09/11 11:22:11 [error] 505#0: *1197 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /www/zdorov/backend/models/HistorySearch.php on line 69" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET /history/index?HistorySearch%5Buser_id%5D=%D0%90%D0%B4%D0%BC%D0%B8%D0%BD&HistorySearch%5Bpurchase_id%5D=&HistorySearch%5Bupdated_at%5D= HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/history/index?HistorySearch%5Buser_id%5D=%D0%90%D0%B4%D0%BC%D0%B8%D0%BD&HistorySearch%5Bpurchase_id%5D=&HistorySearch%5Bupdated_at%5D="
+2016/09/11 12:53:52 [error] 507#0: *1962 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function allows() on boolean in /www/zdorov/vendor/yiisoft/yii2/filters/AccessControl.php on line 118" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/site/login"
+2016/09/11 12:53:52 [error] 507#0: *1962 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function allows() on boolean in /www/zdorov/vendor/yiisoft/yii2/filters/AccessControl.php on line 118" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/site/login"
+2016/09/11 12:53:53 [error] 507#0: *1962 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function allows() on boolean in /www/zdorov/vendor/yiisoft/yii2/filters/AccessControl.php on line 118" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/site/login"
+2016/09/11 12:53:53 [error] 507#0: *1962 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to a member function allows() on boolean in /www/zdorov/vendor/yiisoft/yii2/filters/AccessControl.php on line 118" while reading response header from upstream, client: 192.168.1.42, server: adm.zdorov.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "adm.zdorov.dev", referrer: "http://adm.zdorov.dev/site/login"
