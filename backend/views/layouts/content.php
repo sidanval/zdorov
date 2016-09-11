@@ -24,6 +24,7 @@ use dmstr\widgets\Alert;
         <?=
         Breadcrumbs::widget(
             [
+                'homeLink' => false,
                 'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
             ]
         ) ?>
