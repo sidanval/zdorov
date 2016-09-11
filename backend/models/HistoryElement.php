@@ -20,7 +20,7 @@ class HistoryElement extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'historyElement';
+        return '{{%historyElement}}';
     }
 
     /**

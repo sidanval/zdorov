@@ -32,6 +32,14 @@ $this->params['breadcrumbs'][] = $this->title;
             [
                 'attribute' => 'status',
                 'value' => $model->getStatusTitle()
+            ],
+            [
+                'attribute' => 'created_at',
+                'value' => $model->created_at ? date('d.m.Y H:i', $model->created_at) : '',
+            ],
+            [
+                'attribute' => 'updated_at',
+                'value' => $model->updated_at ? date('d.m.Y H:i', $model->updated_at) : '',
             ]
         ],
     ]) ?>

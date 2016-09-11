@@ -4,6 +4,7 @@ namespace common\models;
 
 use backend\models\History;
 use Yii;
+use yii\behaviors\TimestampBehavior;
 
 /**
  * This is the model class for table "purchase".
@@ -34,7 +35,14 @@ class Purchase extends \yii\db\ActiveRecord
 
     public static function tableName()
     {
-        return 'purchase';
+        return '{{%purchase}}';
+    }
+
+    public function behaviors()
+    {
+        return [
+            TimestampBehavior::className(),
+        ];
     }
 
     public function scenarios()
@@ -63,6 +71,7 @@ class Purchase extends \yii\db\ActiveRecord
             [['status'], 'integer'],
             [['status'], 'default', 'value' => self::STATUS_ACCEPT],
             [['status'], 'in', 'range' => array_keys(self::$statuses)],
+            [['created_at'], 'integer']
         ];
     }
 
@@ -77,6 +86,8 @@ class Purchase extends \yii\db\ActiveRecord
             'product_id' => 'Продукт',
             'cost' => 'Цена',
             'status' => 'Статус',
+            'created_at' => 'Дата создания',
+            'updated_at' => 'Дата обновления',
         ];
     }
 

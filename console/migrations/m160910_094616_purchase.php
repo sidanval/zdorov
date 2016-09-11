@@ -15,6 +15,8 @@ class m160910_094616_purchase extends Migration
             'product_id' => $this->integer(),
             'cost' => $this->float()->notNull(),
             'status' => $this->smallInteger()->notNull()->defaultValue(0),
+            'created_at' => $this->integer()->notNull(),
+            'updated_at' => $this->integer()->notNull(),
         ]);
 
         $this->createTable('{{%product}}', [

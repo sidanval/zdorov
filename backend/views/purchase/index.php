@@ -45,6 +45,12 @@ $this->params['breadcrumbs'][] = $this->title;
                 'filter' => \common\models\Purchase::$statuses
             ],
             [
+                'attribute' => 'created_at',
+                'value' => function($model) {
+                    return $model->created_at ? date('d.m.Y H:i', $model->created_at) : '';
+                }
+            ],
+            [
                 'class' => 'yii\grid\ActionColumn',
                 'template' => '{view} {update}'
             ],

@@ -5,6 +5,8 @@ namespace backend\models;
 use common\models\Purchase;
 use common\models\User;
 use Yii;
+use yii\behaviors\TimestampBehavior;
+use yii\db\Expression;
 
 /**
  * This is the model class for table "history".
@@ -21,7 +23,18 @@ class History extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'history';
+        return '{{%history}}';
+    }
+
+    public function behaviors()
+    {
+        return [
+            [
+                'class' => TimestampBehavior::className(),
+                'createdAtAttribute' => 'updated_at',
+                'updatedAtAttribute' => 'updated_at',
+            ]
+        ];
     }
 
     /**
@@ -44,7 +57,7 @@ class History extends \yii\db\ActiveRecord
             'id' => 'ID',
             'user_id' => 'Пользователь',
             'purchase_id' => 'Заказ',
-            'updated_at' => 'Обновлено',
+            'updated_at' => 'Дата обновления',
         ];
     }
 
@@ -52,6 +65,9 @@ class History extends \yii\db\ActiveRecord
     {
         $historyElements = [];
         foreach ($changedAttributes as $attributeName => $oldValue) {
+            if(in_array($attributeName, ['updated_at']))
+                continue;
+
             $oldValue = (string)$oldValue;
             $newValue = (string)$model->{$attributeName};
 
