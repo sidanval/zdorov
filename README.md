@@ -7,6 +7,6 @@ MiniCRM (Yii 2 Advanced Project Template)
  * check common/config/main-local.php
  
  
- **Backend access**:
+**Backend access:**
  * admin@zdorov.dev / admin
  * manager@zdorov.dev / manager
