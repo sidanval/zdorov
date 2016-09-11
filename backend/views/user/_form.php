@@ -11,7 +11,9 @@ use common\models\User;
 
 <div class="user-form">
 
-    <?php $form = ActiveForm::begin(); ?>
+    <?php $form = ActiveForm::begin(['options' => [
+        'autocomplete' => 'off'
+    ]]); ?>
 
     <?= $form->field($model, 'username')->textInput() ?>
 
