@@ -32,7 +32,7 @@ $this->title = Yii::$app->name;
                 <p class="lead">
                     <?= $form->field($model, 'product_id')->dropDownList(
                         ArrayHelper::map($products, 'id', 'name'),
-                        ['prompt' => 'Выберите товар']
+                        ['prompt' => 'Выберите продукт']
                     )?>
                 </p>
 

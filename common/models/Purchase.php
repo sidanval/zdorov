@@ -67,7 +67,7 @@ class Purchase extends \yii\db\ActiveRecord
             [['product_id'], 'integer'],
             [['name', 'clientName'], 'string', 'max' => 255],
             [['phone'], 'string', 'max' => 50],
-            [['cost'], 'number', 'min' => 0],
+            [['cost'], 'number', 'min' => 0, 'message' => '{attribute} должно быть числом'],
             [['status'], 'integer'],
             [['status'], 'default', 'value' => self::STATUS_ACCEPT],
             [['status'], 'in', 'range' => array_keys(self::$statuses)],

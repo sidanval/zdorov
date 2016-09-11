@@ -29,7 +29,7 @@ use yii\helpers\Html;
                         <!-- User image -->
                         <li class="user-header" style="height: auto">
                             <p>
-                                <?= Yii::$app->user->getIdentity()->username ?>
+                                <?= Html::encode(Yii::$app->user->getIdentity()->username) ?>
                                 <small><?= Yii::$app->user->getIdentity()->roleTitle ?></small>
                             </p>
                         </li>
